@@ -1,0 +1,6 @@
+registration- 
+mail (as username),password,full name,location,phone number.
+every user can sell a secondhand item:
+in the itempage user can see the location, price,size,color, photo, and discription.
+all user can search items by : size/color/price/locaion
+after selling, seller can delete item from the app
