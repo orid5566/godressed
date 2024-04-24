@@ -4,3 +4,24 @@ every user can sell a secondhand item:
 in the itempage user can see the location, price,size,color, photo, and discription.
 all user can search items by : size/color/price/locaion
 after selling, seller can delete item from the app
+
+
+
+
+
+
+az aks get-credentials --resource-group <rg-name> --name <name>
+
+
+create database godressed_users 
+
+
+CREATE TABLE godressed_users (
+    UserID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    Password VARCHAR(100),
+    PhoneNumber VARCHAR(20),
+    Location VARCHAR(100)
+);
